@@ -12,6 +12,7 @@ class Book
     private String author;
     private String title;
     private int pages;
+    private String refNumber;
     
     
 
@@ -24,6 +25,7 @@ class Book
         author = bookAuthor;
         title = bookTitle;
         pages = 500;
+        refNumber = "";
     }
 
     // Add the methods here ...
@@ -126,6 +128,25 @@ class Book
         
         
     }
+    
+    /**
+     * This is to set the reference number
+     * of the book.
+     * 
+     */
+    public void setRefNumber(String newref)
+    {
+        
+        refNumber = newref; 
+        
+    }
+    
+    public String getrefNumber()
+    {
+        
+     return refNumber;   
+    }
+    
     
     
     
