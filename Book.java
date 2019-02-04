@@ -122,6 +122,7 @@ class Book
         System.out.println("Title:" + title);
         System.out.println("Author:" + author);
         System.out.println("Pages:" + pages);
+        System.out.println("Reference Number" + refNumber);
         return;
         
         
