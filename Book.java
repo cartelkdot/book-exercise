@@ -11,6 +11,9 @@ class Book
      // The fields.
     private String author;
     private String title;
+    private int pages;
+    
+    
 
     /**
      * Set the author and title fields when this object
@@ -40,7 +43,9 @@ class Book
     
     
     
-    /**Provide access to the string holding the author's name @return title
+    /**
+     * Provide access to the string holding the 
+     * author's name @return title
      * 
      */
     public String getTitle()
@@ -49,6 +54,39 @@ class Book
         return title;
         
     }
+    
+    
+    /**
+     * Print the Author
+     */
+    public void printAuthor()
+    {
+        
+        System.out.println("Name:" + author);
+        
+        
+        
+    }
+    
+    
+    /**
+     * Print the Title
+     */
+    public void printTitle()
+    {
+        
+        System.out.println("Title of the book:" + title);
+        
+        
+        
+    }
+    
+    /**
+     * 
+     */
+    
+    
+    
     
     
     
