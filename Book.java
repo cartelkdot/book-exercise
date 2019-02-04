@@ -23,6 +23,7 @@ class Book
     {
         author = bookAuthor;
         title = bookTitle;
+        pages = 500;
     }
 
     // Add the methods here ...
@@ -62,8 +63,8 @@ class Book
     public void printAuthor()
     {
         
-        System.out.println("Name:" + author);
-        
+        System.out.println(" Name:" + author);
+        return;
         
         
     }
@@ -75,15 +76,39 @@ class Book
     public void printTitle()
     {
         
-        System.out.println("Title of the book:" + title);
-        
+        System.out.println(" Title of the book:" + title);
+        return;
         
         
     }
     
     /**
+     * Able to get the pages of the book.
      * 
      */
+    public int getPages()
+    {
+        
+    
+      return pages;
+        
+        
+    }
+    
+    /**
+     * Print the Pages
+     */
+    public void printPages()
+    {
+        
+        System.out.println(" Number of pages:" + pages);
+        return;
+        
+        
+    }
+    
+    
+    
     
     
     
