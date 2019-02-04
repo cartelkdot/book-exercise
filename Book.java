@@ -3,8 +3,8 @@
  * This might form part of a larger application such
  * as a library system, for instance.
  *
- * @author (Insert your name here.)
- * @version (Insert today's date here.)
+ * @author Kywajn Alston
+ * @version 2/4/19
  */
 class Book
 {
@@ -23,4 +23,33 @@ class Book
     }
 
     // Add the methods here ...
+    
+    
+    
+    /**Provide access to the string holding the author's name @return author
+     * 
+     */
+    public String getAuthor()
+    {
+        
+        return author;
+        
+    }
+    
+    
+    
+    
+    
+    /**Provide access to the string holding the author's name @return title
+     * 
+     */
+    public String getTitle()
+    {
+        
+        return title;
+        
+    }
+    
+    
+    
 }
