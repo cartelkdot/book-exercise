@@ -187,7 +187,21 @@ class Book
      * Whether or not the book is being used as a text book on a course.
      * 
      */
+    public void isCourseText(){
+        
+        
+        
+        if (!courseText == true) {
+System.out.println("it's true");
+}
+else {
+System.out.println("it's false");
+}
+        
+        
+        
     
+    }
     
     
     
