@@ -14,6 +14,7 @@ class Book
     private int pages;
     private String refNumber;
     private int borrowed;
+    boolean courseText = true;
     
     
     
@@ -181,4 +182,22 @@ class Book
     
     
     
+    /**
+     * 
+     * Whether or not the book is being used as a text book on a course.
+     * 
+     */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
 }
