@@ -14,7 +14,7 @@ class Book
     private int pages;
     private String refNumber;
     private int borrowed;
-    private double boook2;
+    
     
     
 
@@ -156,7 +156,7 @@ class Book
     
    
     
-    public void setBorrowed(double amt)
+    public void addBorrowed(int amt)
     {
         
        
