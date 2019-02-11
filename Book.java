@@ -13,6 +13,8 @@ class Book
     private String title;
     private int pages;
     private String refNumber;
+    private int borrowed;
+    private double boook2;
     
     
 
@@ -26,6 +28,7 @@ class Book
         title = bookTitle;
         pages = 500;
         refNumber = "";
+        borrowed = 0;
     }
 
     // Add the methods here ...
@@ -122,7 +125,8 @@ class Book
         System.out.println("Title:" + title);
         System.out.println("Author:" + author);
         System.out.println("Pages:" + pages);
-        System.out.println("Reference Number" + refNumber);
+        System.out.println("Reference Number:" + refNumber);
+        System.out.println("Number of times borrowed:" + borrowed);
         return;
         
         
@@ -149,6 +153,31 @@ class Book
     }
     
     
+    
+   
+    
+    public void setBorrowed(double amt)
+    {
+        
+       
+        
+        borrowed += amt;
+
+    }
+    
+    
+    /**
+     * 
+     * Should get the number of times the book was borrowed.
+     */
+    public int getBorrowed()
+    {
+        
+        
+        return borrowed;
+        
+        
+    }
     
     
     
